@@ -9,7 +9,7 @@
 
 const $ = new Env('MK饿了么夺宝');
 const axios = require('axios');
-const elmSignUrl = process.env.elmSignUrl ? process.env.elmSignUrl : "http://172.31.16.122:9999/api/getXSign";
+const elmSignUrl = process.env.elmSignUrl ? process.env.elmSignUrl : "http://192.168.31.1:9999/api/getXSign";
 let cookiesArr = []
 
 if (process.env.elmck) {
